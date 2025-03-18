@@ -1,0 +1,21 @@
+<? version = "1.0" encoding = "UTF-8"?>
+
+<catalog>
+<book id = "bk101">
+<author>John Doe</author>
+<title>XML for Beginners</title>
+<genre>Computer</genre>
+<price>39.95</price>
+<publish_date>2000-10-01</publish_date>
+<description>An introduction to XML.</description>
+</book>
+<book id = "bk102">
+<author>Ronnie Jordan</author>
+<title>XML for Dummies</title>
+<genre>Computer</genre>
+<price>49.95</price>
+<publish_date>2001-11-01</publish_date>
+<description>XML for Dummies is a book that covers the basics of XML.</description>
+</book>
+</book>
+</catalog>
