@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(128, 128, 128, 0.377);
+    background-color: rgb(128, 128, 128);
     margin: 0;
     padding: 20px;
     display: flex;
@@ -49,5 +49,30 @@ transition: transform 5s ease ease-in-out;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    gap:10px;
+}
+
+#pagination-controls button {
+    padding: 10px 20px;
+    background-color: rgba(4, 0, 255, 0.521);
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+
+}
+
+
+#pagination-controls button:hover:not(:disabled) {
+    background-color: rgba(4, 0, 255, 0.521);
+}
+
+#pagination-controls button:disabled {
+    background-color: rgba(250, 241, 215, 0.199);
+    cursor: not-allowed;
+}
+
+#pagination-controls span {
+    color: rgba(128, 128, 128, 0.521);
 }
